@@ -9,7 +9,7 @@ stages:
       size: 3638
     params:
       params.yaml:
-        data_ingestion.test_size: 0.3
+        data_ingestion.test_size: 0.2
     outs:
     - path: data/raw
       hash: md5
